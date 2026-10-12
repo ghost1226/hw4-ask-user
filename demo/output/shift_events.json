@@ -1,0 +1,62 @@
+[
+  {
+    "timestamp": "2024-06-03T08:12:00Z",
+    "severity": "medium",
+    "description": "Phishing campaign detected targeting @contoso.com users. Emailed link leads to fake login portal.",
+    "status": "contain"
+  },
+  {
+    "timestamp": "2024-06-03T09:45:00Z",
+    "severity": "high",
+    "description": "Impossible travel alert for alice@contoso.com: Boston then Moscow in 25 minutes.",
+    "status": "remediated"
+  },
+  {
+    "timestamp": "2024-06-03T10:30:00Z",
+    "severity": "low",
+    "description": "Firewall rule request approved for block-list update of C2 IPs.",
+    "status": "completed"
+  },
+  {
+    "timestamp": "2024-06-03T11:05:00Z",
+    "severity": "medium",
+    "description": "Brute-force burst from 203.0.113.10 against VPN gateway (7 failures in 6 minutes).",
+    "status": "blocked"
+  },
+  {
+    "timestamp": "2024-06-03T12:20:00Z",
+    "severity": "low",
+    "description": "Scheduled EDR policy scan completed with no anomalies on endpoints.",
+    "status": "completed"
+  },
+  {
+    "timestamp": "2024-06-03T13:40:00Z",
+    "severity": "high",
+    "description": "MFA fatigue attack on bob@contoso.com — 12 push notifications in 3 minutes.",
+    "status": "remediated"
+  },
+  {
+    "timestamp": "2024-06-03T14:15:00Z",
+    "severity": "medium",
+    "description": "Data exfiltration alert triggered via large outbound upload to unknown cloud storage.",
+    "status": "investigating"
+  },
+  {
+    "timestamp": "2024-06-03T15:00:00Z",
+    "severity": "low",
+    "description": "Ticket triage backlog cleared. SLA met for all P1/P2 incidents.",
+    "status": "completed"
+  },
+  {
+    "timestamp": "2024-06-03T16:30:00Z",
+    "severity": "medium",
+    "description": "New vulnerable dependency flagged in internal web app (CVE-2024-XXXX). Patch scheduled.",
+    "status": "pending"
+  },
+  {
+    "timestamp": "2024-06-03T17:00:00Z",
+    "severity": "high",
+    "description": "Ransomware-like behavior detected on endpoint DESKTOP-999. Host isolated.",
+    "status": "contained"
+  }
+]
